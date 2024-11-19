@@ -41,13 +41,13 @@
     <maven.compiler.testRelease>17</maven.compiler.testRelease>
 
     <!-- override to set exclusions per-project -->
-    <errorprone.args />
+    <errorprone.args/>
     <errorprone.version>2.27.1</errorprone.version>
 
     <zipkin-proto3.version>1.0.0</zipkin-proto3.version>
 
     <armeria.groupId>com.linecorp.armeria</armeria.groupId>
-    <armeria.version>1.28.4</armeria.version>
+    <armeria.version>1.31.0</armeria.version>
     <!-- Match Armeria version to avoid conflicts including running tests in the IDE -->
     <netty.version>4.1.110.Final</netty.version>
 
